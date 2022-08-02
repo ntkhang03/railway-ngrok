@@ -3,6 +3,7 @@ Sử dụng Ngrok để thâm nhập vào mạng nội bộ của Railway Docker
 
 ## 1/ Đăng ký tài khoản railway & ngrok
 
+* Đầu tiên bạn cần phải có 1 tài khoản github. Đăng ký [tại đây](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home) nếu chưa có
 1. Truy cập [Railway](https://railway.app/login) Truy cập trang web để đăng ký tài khoản Railway và đăng nhập trực tiếp bằng tài khoản github của bạn
 2. Truy cập [Ngrok](https://dashboard.ngrok.com/auth) Vào trang web, và đăng ký tài khoản miễn phí
 3. Truy cập [Ngrok Authtoken](https://dashboard.ngrok.com/auth) sao chép và lưu mã `Authtoken` của bạn
