@@ -21,3 +21,6 @@ Nhấp vào nút bên dưới để triển khai
 `PORT` Điền vào cổng (PORT) bạn đã tạo ứng dụng và Railway sẽ tự động chuyển tiếp nó đến tên miền được cấp cho bạn, mặc định: 80
 
 `REGION` Điền vào khu vực có tunnel service, càng gần càng tốt, mặc định là jp, tùy chọn us/eu/ap/au/sa/jp/in
+
+## 3/ Lưu ý
+Tất cả dữ liệu sẽ bị xóa nếu bạn restart lại project railway
