@@ -2,6 +2,8 @@ FROM ubuntu
 ARG NGROK_TOKEN
 ARG PASSWORD
 ARG REGION=jp
+ENV PASSWORD $PASSWORD|admin123
+echo "ngrok token: $PASSWORD"
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt update && apt install -y \
     ssh wget unzip vim curl nano git
